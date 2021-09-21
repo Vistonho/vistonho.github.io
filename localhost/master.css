@@ -1,0 +1,170 @@
+body {
+	margin: 0% auto;
+	background: linear-gradient(to bottom, #0a0117, #290066);
+}
+
+header {
+	background-color: #0a0117;
+	padding: 15px 30px 15px 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo-img{
+		max-width: 300;
+		max-height: 200;
+		border-radius: 30%;
+}
+
+.telephone{
+	display: flex;
+	margin-right: 20px;
+}
+
+.phone{
+		color: white;
+		font-size: 30;
+		font-weight: 600;
+		font-family: Helvetica;
+		display: flex;
+		align-items: center;
+}
+
+.pbutton{
+		margin-left: 50px;
+		max-width: 100;
+		max-height: 100;
+		display: flex;
+		align-items: center;
+}
+
+.wrapper{
+	max-width: 75%;
+	margin: 50 auto;
+}
+
+.part{
+	margin-top: 70px;
+	display: flex;
+	background-color: #2f1242;
+	border-radius: 50px;
+	align-items: center;
+	transition: 1s;
+}
+
+.tech-img{
+	
+	height: 300px;
+	max-width: 300px;
+	min-width: 300px;
+	margin: 30px 40px 30px 30px;
+}
+
+.part:hover{
+	transform: scale(1.2);
+}
+
+.text{
+	display: flex;
+	padding: 30px;
+	font-size: 20;
+	font-family: arial;
+	font-weight: bold;
+	color: #c2c2c2;
+	text-align: justify; /* выравнивание текста по ширине */
+	text-indent: 60px; /* отступ с красной строки */
+}
+
+.h1{
+	margin: 50 auto;
+	display: flex;
+	border-top: 10px solid #11022b;
+	border-bottom: 10px solid #11022b;
+	max-width: 1400px;
+}
+
+h1{
+	margin: 10 auto;
+	font-size: 40;
+	color: white;
+}
+
+.tovary{
+	display: flex;
+	max-width: 1300px;
+	margin: 50 auto;
+	justify-content: space-between;
+}
+
+.tov-number{
+	background: linear-gradient(to top, #170533, #421241);
+	border-radius: 20px;
+	margin-bottom: 40px;
+	transition: 1s;
+}
+
+.tov-number:hover{
+	transform: scale(1.1);
+}
+
+.tov-img{
+	padding: 20px 20px;
+	
+}
+
+.tov-text{
+	text-align: center;
+	
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6, #i7{
+	min-height: 400px;
+	max-width: 350px;
+	border-radius: 40px;
+}
+
+.name{
+	font-family: Arial;
+	color: #c2c2c2;
+	font-size: 15px;
+}
+
+.model{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #c2c2c2;
+}
+
+.ru{
+	font-family: arial;
+	color: #c2c2c2;
+}
+
+.sotrud{
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	display: flex;
+	background: linear-gradient(to top, #2f1242, #11022b);
+	border-radius: 20px;
+	align-items: center;
+
+}
+
+.rab{
+	float: left;
+	padding: 20 20;
+}
+
+.tabl{
+	font-size: 50px;
+	color: #c2c2c2;
+	text-align: center;
+}
