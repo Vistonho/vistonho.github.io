@@ -1,0 +1,13 @@
+User-agent:Yandex
+Disallow: /Admin
+Disallow: *&
+
+User-agent:Googlebot
+Disallow: /Admin
+Disallow: *?page=
+Sitemap:/ sitemap.xml
+
+User-agent:*
+Disallow: /Admin
+Disallow: *?page=
+Sitemap:/ sitemap.xml
