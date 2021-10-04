@@ -1,0 +1,280 @@
+/* */
+
+body {
+	margin: 0% auto; /* Отступ по центру */
+	background: linear-gradient(to bottom, #bab1ee, #73c788); /* Градиент */
+}
+
+header {
+	background-color: #6369a0; /* Фон */
+	padding: 15px 30px 15px 30px; /* Внутренние отступы */
+	display: flex; /* Флекс */
+	justify-content: space-between; /* Выравнивание по краям блока */
+	margin-bottom: 50px; /* Внешний нижний отступ */
+}
+
+.logo{
+	display: flex;
+	align-items: center; /* Выравнивание флекс-блоков по цетру */
+}
+
+.logo-img{
+		max-width: 400; /* Максимальная ширина */
+		max-height: 300; /* Максимальная высота */
+		border-radius: 30%; /* Закругление краев рамки */
+
+}
+
+.telephone{
+	display: flex;
+	margin-right: 20px; /* Внешний отступ справа */
+
+}
+
+.phone{
+		color: white; /* Цвет текста */
+		font-size: 20; /* Размер текста */
+		font-weight: 600; /* Толщина текста */
+		font-family: "PressStart2P"; /* Шрифт */
+		display: flex;
+		align-items: center;
+
+}
+
+.pbutton{
+		margin-left: 50px; /* Внешний отступ слева */
+		margin-top: 20px; /* Внещний отступ сверху */
+		max-width: 100; /* Максимальная ширина */
+		max-height: 100; /* Максимальная высота */
+		display: flex;
+		align-items: center;
+}
+
+#theme-button{
+	margin: auto;
+	max-width: 110px;
+	max-height: 110px;
+}
+
+
+.back{
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 100vw;
+}
+
+#back{
+	max-width: 100px;
+	position: fixed;
+	right: 50px;
+	bottom: 30px;
+	transform: rotate(180deg);
+}
+
+
+
+.wrapper{
+	max-width: 75%;
+	margin: 50 auto; /* Внешний отступ верх-низ-50, по горизонтали атво*/
+}
+
+.part{
+	margin-top: 70px;
+	display: flex;
+	background-color: #7788be;
+	border-radius: 50px;
+	align-items: center;
+	transition: 1s; /* определяет время трансформации */
+}
+
+.tech-img{
+
+	height: 300px;
+	max-width: 300px;
+	min-width: 300px;
+	margin: 30px 40px 30px 30px;
+}
+
+.part:hover{
+	transform: scale(1.2); /* трансформация увеличение в 1.2 */
+}
+
+.text{
+	display: flex;
+	padding: 50px;
+	font-size: 20;
+	font-family: arial;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: justify; /* выравнивание текста по ширине */
+	text-indent: 60px; /* отступ с красной строки */
+}
+
+.h1{
+	margin: 50 auto;
+	display: flex;
+	border-top: 10px solid #7b98e7; /* Полоса сверху */
+	border-bottom: 10px solid #7b98e7; /* Полоса снизу */
+	font-family: "PressStart2P";
+	width: 1400px;
+
+}
+
+h1{
+	margin: 10 auto;
+	font-size: 40;
+	color: white;
+	text-align: center;
+}
+
+
+.tov-number{
+	background: linear-gradient(to top, #056128, #2588c2);
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+
+.tov-img{
+	padding: 20px 20px; /* Внутренние отступы */
+}
+
+.tov-text{
+	text-align: center;
+	margin-bottom: 30px;
+  
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6, #i7{ /* Применение стилей к айди */
+	min-height: 400px;
+	max-width: 315px;
+	border-radius: 40px;
+}
+
+.name{
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.model{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #ffffff;
+}
+
+.ru{
+	font-family: arial;
+	color: #ffffff;
+}
+
+.sotrud{
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	display: flex;
+	background: linear-gradient(to top, #7699cf, #0b64a0); /* Градиент */
+	border-radius: 20px;
+	align-items: center;
+
+}
+
+.rab-img{
+	float: left; /* Выравнивание элемента по левому краю */
+	padding: 20 20;
+}
+
+.rab-text{
+	font-family: arial;
+}
+
+.tabl{
+	font-size: 50px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.brand{
+	max-width: 1400px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.brand-img{
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.personal{
+	background: linear-gradient(to top, #401d94, #2c74e0); /* Градиент */
+	border-radius: 40px;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.personal-img{
+	padding: 20px;
+}
+
+.personal-text{
+	text-indent: 60px;
+	text-align: justify;
+	padding: 40px;
+	color: white;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.subscribe{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto 50 auto;
+	max-width: 1400px;
+	background: linear-gradient(to top, #99d130, #bb9517); /* Градиент */
+	border-radius: 40px;
+	padding: 40px;
+	align-items: center;
+}
+
+.subscribe-text{
+	font-size: 30px;
+	color: white;
+	text-align: justify;
+	text-indent: 60px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.subscribe-img{
+	display: flex;
+}
+
+.subscribe-img-img{
+	width: 200px;
+}
+
+
+
+  #subscribe-name-p, #subscribe-mail-p{
+	color: white;
+	font-family: Arial;
+	font-weight: 700;
+}
+
+.subscribe-mail{
+	margin-bottom: 20px;
+}
+
+
+@font-face {
+	font-family: "PressStart2P";
+	src: url("fonts/PressStart2P-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
