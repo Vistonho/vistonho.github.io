@@ -1,0 +1,14 @@
+User-agent:Yandex
+Disallow: /Admin
+Disallow: *&
+Sitemap: https://vistonho.github.io/sitemap.xml
+
+User-agent:Googlebot
+Disallow: /Admin
+Disallow: *?page=
+Sitemap:/ sitemap.xml
+
+User-agent:*
+Disallow: /Admin
+Disallow: *?page=
+Sitemap:/ sitemap.xml

@@ -1,0 +1,122 @@
+body {
+	background-color: #dbdbdb; /* Цвет фона */
+}
+
+header {
+	background-color: #2c3e50; /* Цвет фона шапки */
+	padding: 15px 30px 15px 30px; /* Внутренние отступы */
+	display: flex; /* Расположение блоков */
+	justify-content: space-between; /* Размещение блоков по краям */
+	max-width: 1200px;
+	margin: 0 auto;
+	border-radius: 40px;
+}
+
+.logo{
+	display: flex;
+	align-items: center; /* Выравнивание флекс-элементов по центру */
+}
+
+.logo-img{
+		margin-right: 15px; /* Внешний отступ справа */
+}
+
+.logo-title{
+		color: white; /* Цвет текста */
+		font-size: 50; /* Размер шрифта */
+		font-weight: 550; /* Толщина шрифта */
+		font-family: "font-k"; /* Шрифт */
+}
+
+.hor-menu ul li{
+		list-style-type: none; /* Убирает маркеры из меню */
+		float: left; /* Прижатие к левой стороне своего блока */
+		padding: 15px 0px; /* Внутренние отступы */
+		color: #fff;
+		!position: relative; left: -1050; /* Вырвнивание и смещение вправо */
+}
+
+.hor-menu ul li a{
+		color: #6F8CA7;
+		text-decoration: none; /* Убирает подчеркивание меню */
+		padding: 10px 15px 10px 15px; /* Внутренние отступы */
+		font-family: arial; /* Шрифт */
+}
+
+ul li a:hover {
+		background: #41576e;
+		color: white;
+		transition:all 0.5s; /* Анимация */
+}
+
+.wrapper{
+		max-width: 1260px;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 50px;
+}
+
+.content{
+	border-radius: 30px;
+		max-width: 1260px;
+		min-width: 360px;
+		padding: 20px 20px;
+		background-color: white;
+		display: flex;
+		margin-bottom: 20px;
+		
+}
+
+.img{
+		border: 20px solid #dbdbdb;
+		margin-right: 40px;
+		min-width: 420px;
+		width: 400px;
+		max-height: max-content;
+}
+
+.data{
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 15;
+	color: gray;
+	font-family: serif;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.zag{
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #2c3e50;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+	font-size: 27;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: justify;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@font-face {
+	font-family: "font-k";
+	src: url("fonts/font-k.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1{
+	margin: 0;
+}
+
+footer{
+	width: 100%;
+	border-radius: 20px;
+	background-color: rgb(71, 71, 128);
+	text-align: center;
+	height: 50px;
+	font-weight: 800;
+}

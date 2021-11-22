@@ -1,0 +1,10 @@
+﻿#начало
+Options +FollowSymLinks
+RewriteEngine on 
+
+ErrorDocument 404 /error/error.html
+
+
+#переадресует на https 
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
