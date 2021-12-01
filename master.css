@@ -130,3 +130,8 @@ footer{
 	border-radius: 40px;
 	padding: 10px;
 }
+
+#news{
+	display: flex;
+	align-items: center;
+}
